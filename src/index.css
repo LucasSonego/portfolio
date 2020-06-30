@@ -3,4 +3,22 @@ body {
   font-family: Fira Code;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #222831;
+}
+
+::selection {
+  background: #00adb5;
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: #393e46;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00adb5;
 }
